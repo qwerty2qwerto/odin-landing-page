@@ -18,12 +18,13 @@ html {
 
 button {
     color: #F9FAF8;
-    padding: 8px 35px;
-    border-radius: 5px;
+    padding: 5px 35px;
+    border-radius: 10px;
     outline: none;
     font-weight: 500;
     font-size: 22px;
     font-family: inherit;
+    padding-bottom: 8px;
 }
 
 .hero-signup {
@@ -37,12 +38,17 @@ button {
 .hero-secondary-text,
 a {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c4c4c4;
     text-decoration: none;
 }
 
+.box-text {
+    color: #818181;
+}
+
 button a {
-    font-size: inherit;
+    font-size: 20px;
+    color: #F9FAF8;
 }
 
 li {
@@ -124,4 +130,43 @@ ul {
 
 .hero-main-text {
     margin: 0;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 125px;
+}
+
+.info-header {
+    text-align: center;
+    padding: 30px;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-text {
+    width: 200px;
+    text-align: center;
 }
