@@ -36,9 +36,10 @@ button {
 }
 
 .hero-secondary-text,
-a {
+a,
+.footer-text {
     font-size: 18px;
-    color: #c4c4c4;
+    color: #d1d1d1;
     text-decoration: none;
 }
 
@@ -164,9 +165,22 @@ ul {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 8px;
 }
 
 .box-text {
     width: 200px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 350px;
+    gap: 30px;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bolder;
 }
