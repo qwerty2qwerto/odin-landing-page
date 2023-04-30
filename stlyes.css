@@ -39,7 +39,7 @@ button {
 a,
 .footer-text {
     font-size: 18px;
-    color: #d1d1d1;
+    color: #e8e8e8;
     text-decoration: none;
 }
 
@@ -65,6 +65,15 @@ button,
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.signup-header {
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.signup-body {
+    color: #e6e5e5;
 }
 
 .quote {
@@ -176,11 +185,34 @@ ul {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 150px 350px;
+    padding: 130px 350px;
     gap: 30px;
 }
 
 .quote-author {
     text-align: end;
     font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    width: 1000px;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
