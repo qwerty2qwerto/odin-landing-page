@@ -1,7 +1,7 @@
 /* fonts and colors */
 
 html {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .header,
@@ -14,6 +14,24 @@ html {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+button {
+    color: #F9FAF8;
+    padding: 8px 35px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: inherit;
+}
+
+.hero-signup {
+    border: none;
+}
+
+.signup-signup {
+    border: solid #F9FAF8 2px;
 }
 
 .hero-secondary-text,
@@ -47,3 +65,28 @@ button,
     font-style: italic;
     color: #1f2937;
 }
+
+/* page layout & formatting */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+.dblogo {
+    width: 80px;
+    height: 80px;
+}
+
